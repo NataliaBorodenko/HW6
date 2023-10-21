@@ -8,7 +8,7 @@ public class Main {
         int income = 10_000;
         int expenses = 3000;
         int threshold = 20_000;
-        System.out.println(services.calcRest(income,expenses,threshold));
+        System.out.println(services.calcRest(income, expenses, threshold));
 
     }
 }
