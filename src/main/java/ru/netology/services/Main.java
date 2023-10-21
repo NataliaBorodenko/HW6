@@ -5,7 +5,10 @@ package ru.netology.services;
 public class Main {
     public static void main(String[] args) {
         RestServices services = new RestServices();
-        System.out.println(services.calcRest( int income, int expenses, int threshold, int expected));
+        int income = 10_000;
+        int expenses = 3000;
+        int threshold = 20_000;
+        System.out.println(services.calcRest(income,expenses,threshold));
 
     }
 }
